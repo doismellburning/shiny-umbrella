@@ -18,3 +18,11 @@ jobs:
       - run: make bootstrap
       - run: make check
       - run: make test
+
+  devcontainer:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: devcontainers/ci@v0.3
+        with:
+          runCmd: make bootstrap check test
