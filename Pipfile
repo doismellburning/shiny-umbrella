@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 structlog = "*"
+kiss3 = "*"
 
 [dev-packages]
 black = "*"
