@@ -5,6 +5,9 @@ branch = true
 fail_under = 100
 show_missing = true
 skip_covered = true
+exclude_also = [
+	"if __name__ == .__main__.:"
+]
 
 [tool.ruff]
 select = [
@@ -17,3 +20,7 @@ select = [
 	"B",  # flake8-bugbear
 	"INP",  # flake8-no-pep420
 ]
+
+[[tool.mypy.overrides]]
+module = "kiss"
+ignore_missing_imports = true
