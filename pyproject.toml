@@ -20,3 +20,7 @@ select = [
 	"B",  # flake8-bugbear
 	"INP",  # flake8-no-pep420
 ]
+
+[[tool.mypy.overrides]]
+module = "kiss"
+ignore_missing_imports = true
