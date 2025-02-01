@@ -210,11 +210,11 @@
     "develop": {
         "attrs": {
             "hashes": [
-                "sha256:8f5c07333d543103541ba7be0e2ce16eeee8130cb0b3f9238ab904ce1e85baff",
-                "sha256:ac96cd038792094f438ad1f6ff80837353805ac950cd2aa0e0625ef19850c308"
+                "sha256:1c97078a80c814273a76b2a298a932eb681c87415c11dee0a6921de7f1b02c3e",
+                "sha256:c75a69e28a550a7e93789579c22aa26b0f5b83b75dc4e08fe092980051e1090a"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==24.3.0"
+            "version": "==25.1.0"
         },
         "black": {
             "hashes": [
@@ -327,12 +327,12 @@
         },
         "hypothesis": {
             "hashes": [
-                "sha256:02c25552783764146b191c69eef69d8375827b58a75074055705ab8fdbc95fc5",
-                "sha256:0a8bf07753f1436f1b8697a13ea955f3fef3ef7b477c2972869b1d142bcdb30e"
+                "sha256:8ed6c6ae47e7d26d869c1dc3dee04e8fc50c95240715bb9915ded88d6d920f0e",
+                "sha256:a6e1f66de84de3152d57f595a187a123ce3ecdea9dc8ef51ff8dcaa069137085"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.9'",
-            "version": "==6.123.2"
+            "version": "==6.124.7"
         },
         "iniconfig": {
             "hashes": [
