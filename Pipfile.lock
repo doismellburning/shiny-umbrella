@@ -328,12 +328,12 @@
         },
         "hypothesis": {
             "hashes": [
-                "sha256:7c2d9d6382e98e5337b27bd34e5b223bac23956787a827e1d087e00d893561d6",
-                "sha256:ee9b0e1403e1121c91921dbdc79d7f509fdb96d457a0389222d2a68d6c8a8f8e"
+                "sha256:55868060add41baa6176ed9c3456655678d140c74e3514bdf03381dae6391403",
+                "sha256:9d11f81664c0688d27d37c871cee8baf4349383cf9ef9938ef6b3ae836962595"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.9'",
-            "version": "==6.131.9"
+            "version": "==6.132.0"
         },
         "iniconfig": {
             "hashes": [
