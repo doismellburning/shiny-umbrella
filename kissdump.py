@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 
 import kiss
@@ -17,10 +18,19 @@ def kissdump(s):
     log.info("Dumping", file_name=file_name)
 
     with open(file_name, "ab") as file:
+        log.info("Data", data=s)
         file.write(s)
 
 
-if __name__ == "__main__":
-    _k = kiss.TCPKISS(host="localhost", port=8001)
+def main():
+    port = int(os.getenv("PORT", "6000"))
+
+    log.info("Starting up!", port=port)
+
+    _k = kiss.TCPKISS(host="localhost", port=port)
     _k.start()
-    _k.read(callback=kissdump)
+    _k.read(callback=kissdump, min_frames=None)
+
+
+if __name__ == "__main__":
+    main()
